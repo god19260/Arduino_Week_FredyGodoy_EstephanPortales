@@ -83,6 +83,18 @@ void loop() {
     digitalWrite(Motor_2D, HIGH);
     digitalWrite(Motor_2I, LOW);
   }   
+  if(Freno){
+    digitalWrite(Motor_1D, LOW);
+    digitalWrite(Motor_1I, LOW);
+    digitalWrite(Motor_2D, LOW);
+    digitalWrite(Motor_2I, LOW);
+  }
+  if(!Adelante and !Atras and !Derecha and !Izquierda ){
+    digitalWrite(Motor_1D, LOW);
+    digitalWrite(Motor_1I, LOW);
+    digitalWrite(Motor_2D, LOW);
+    digitalWrite(Motor_2I, LOW);
+  }
 }
 
 void handle_OnConnect() {
