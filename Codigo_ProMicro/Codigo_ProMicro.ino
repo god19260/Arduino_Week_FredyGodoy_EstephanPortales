@@ -1,3 +1,7 @@
+// Competencia Semana Arduino
+// Estephan Portales - 19826
+// Fredy Godoy - 19260
+
 int Motor_1D = 2;
 int Motor_1I = 3;
 int Motor_2D = 5;
